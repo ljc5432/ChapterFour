@@ -21,9 +21,11 @@ Lab3:Persistence Ignorance
 Abstract
 --------
 
- Understand the Repository Pattern.
- Understand the Service Layer Pattern.
- Understand why it is important to separate business logic from data storage techniques.
+Understand the Repository Pattern.
+
+Understand the Service Layer Pattern.
+
+Understand why it is important to separate business logic from data storage techniques.
 
 Introduction
 ------------
@@ -63,5 +65,6 @@ Quz3:  What is the benefit of separating business logic from infrastructure conc
 
 Answer:  在更改其他的层级代码时不需要对业务逻辑进行改动，提高了软件的可维护性与安全性，同时由于耦合度的降低，使得代码的重用率更高。  业务逻辑：service.py  基础结构：
 repository.py
+
 End
 ~~~
