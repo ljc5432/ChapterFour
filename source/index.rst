@@ -35,11 +35,6 @@ while implementing the Repository Pattern. More specifically, you will define a 
 PickleRepository. As the class name indicates, this class will use a pickle file as the infrastructure. A
 pickle file is simpler than a database, isn’t it?
 
-Methods and materials
----------------------
-
-①
-
 Results
 -------
 
@@ -52,6 +47,13 @@ https://cloud.zjnu.edu.cn/share/e0ee5c5956faf49f4626d504b2
 ^^^^^^^^^^^^^
 
 .. image:: ../media/testPass.png
+
+问题回答：
+^^^^^^^^^^^^^
+
+Quz1: What is the difference between the textbook test services.py and my test services.py?
+
+Answer:  旧的services.py使用SqlAlchemy进行数据存储，新的services.py使用pickle将数据转换为进行数据
 
 End
 ~~~
